@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./bulb-images/bg1.png), no-repeat;
+    background-size: cover;
+    padding: 65px;
+}
+
+.btn {
+    position: absolute;
+    margin: 480px 50px;
+    left: 42%;
+    justify-content: center;
+    align-items: center;
+    text-align: 0 auto;
+    border: 0;
+    padding: 25px;
+    border-radius: 20px;
+    font-size: large;
+    font-size: 30px;
+    font-family: 'open sans';
+    color: rgb(197, 197, 197);
+    background-color: rgb(57, 98, 134)
+}
+
+#bulb1 {
+    top: 0;
+    left: 250px;
+    position: absolute;
+}
+
+#bulb2 {
+    top: 0;
+    left: 540px;
+    position: absolute;
+}
+
+#bulb3 {
+    top: 0;
+    left: 930px;
+    position: absolute;
+}
+
